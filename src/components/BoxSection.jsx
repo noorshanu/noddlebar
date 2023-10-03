@@ -19,7 +19,8 @@ const BoxSection = () => {
           </div>
           <div className='m-content'>
           <h1 className="text-3xl font-bold text-white">$2344565</h1>
-          <p className="mt-2">Hi, how are you?</p>
+          <p className="mt-2 text-sm font-semibold text-white uppercase">TOtal Centerlised <br />
+          Perpetual Volume</p>
           </div>
          
         </div>
@@ -31,7 +32,8 @@ const BoxSection = () => {
           </div>
           <div className='m-content'>
           <h1 className="text-3xl font-bold text-white">$2344565</h1>
-          <p className="mt-2">Hi, how are you?</p>
+          <p className="mt-2 text-sm font-semibold text-white uppercase">on Chain <br />
+          Perpetual volume</p>
           </div>
          
         </div>
@@ -43,7 +45,8 @@ const BoxSection = () => {
           </div>
           <div className='m-content'>
           <h1 className="text-3xl font-bold text-white">$2344565</h1>
-          <p className="mt-2">Hi, how are you?</p>
+          <p className="mt-2 text-sm font-semibold text-white uppercase">Revenue of perpetual <br />
+          Trading volume</p>
           </div>
          
         </div>
