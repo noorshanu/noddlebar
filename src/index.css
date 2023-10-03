@@ -71,14 +71,31 @@ border-radius: 6px 6px 0px 0px;
     background: rgb(252,91,96);
 background: linear-gradient(0deg, rgba(252,91,96,1) 50%, rgba(255,255,255,1) 100%);
 }
+.bg-pink:hover{
+  background: rgb(252,91,96);
+  background: linear-gradient(0deg,  rgba(255,255,255,1) 5%, rgba(252,91,96,1) 100%);
+  transition: background 0.3s ease;
+  color: black;
+}
+
 
 .bg-btn{
     background: rgb(0,0,0);
 background: linear-gradient(0deg, rgba(0,0,0,1) 92%, rgba(255,255,255,1) 100%);
 }
+.bg-btn:hover{
+  background: #f4314a;
+  background: linear-gradient(0deg,  rgb(0, 0, 0) 100%,rgba(76,202,255,1) 92%,);
+}
+
+
 .bg-btn2{
   background: rgb(76,202,255);
 background: linear-gradient(0deg, rgba(76,202,255,1) 92%, rgba(255,255,255,1) 100%);
+}
+.bg-btn2:hover{
+  background: #f4314a;
+  background: linear-gradient(0deg,  rgba(255,255,255,1) 100%, rgba(76,202,255,1) 92%,);
 }
 .m-content{
   position: absolute;
@@ -89,12 +106,15 @@ background: linear-gradient(0deg, rgba(76,202,255,1) 92%, rgba(255,255,255,1) 10
   background: rgb(9,196,123);
 background: linear-gradient(0deg, rgba(9,196,123,1) 92%, rgba(255,255,255,1) 100%);
 }
+.btn-green:hover{
+  background: #f4314a;
+}
 
 
 .swiper {
   width: 100%;
   padding-top: 50px;
-  padding-bottom: 50px;
+ 
 }
 
 .swiper-slide {

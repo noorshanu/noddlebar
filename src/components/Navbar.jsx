@@ -58,7 +58,7 @@ function Navbar() {
               Tokonomics
               </a>
             </li>
-            <li> <a href="#" className="text-white shadow-lg  uppercase font-bold stroke-black  bg-pink px-8 py-3 rounded-full   hover:text-gray-200">
+            <li> <a href="#" className="text-white shadow-lg  uppercase font-bold stroke-black  bg-pink  px-8 py-3 rounded-full   hover:text-black">
                 Launch App
               </a></li>
           </ul>
