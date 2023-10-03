@@ -85,7 +85,7 @@ function Navbar() {
               </a>
             </li>
             <li>
-              <a href="#" className="text-white  uppercase font-bold stroke-black  bg-pink px-12 py-3 rounded-full   hover:text-gray-200">
+              <a href="#" className="text-white shadow-lg  uppercase font-bold stroke-black  bg-pink px-12 py-3 rounded-full   hover:text-gray-200">
                 Launch App
               </a>
             </li>

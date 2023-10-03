@@ -4,7 +4,19 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'nood'; /* Choose a font family name */
+  src: url('./fonts/nood.otf') format('truetype'); /* Adjust the path as needed */
+  font-weight: normal;
+  font-style: normal;
+}
 
+.text-s{
+  text-shadow: -1px -1px 29px rgba(195,185,35,0.72);
+}
+.font-car{
+  font-family: 'nood'; 
+}
 
 .lh-1 {
     line-height: 1;
@@ -63,4 +75,13 @@ background: linear-gradient(0deg, rgba(252,91,96,1) 50%, rgba(255,255,255,1) 100
 .bg-btn{
     background: rgb(0,0,0);
 background: linear-gradient(0deg, rgba(0,0,0,1) 92%, rgba(255,255,255,1) 100%);
+}
+.bg-btn2{
+  background: rgb(76,202,255);
+background: linear-gradient(0deg, rgba(76,202,255,1) 92%, rgba(255,255,255,1) 100%);
+}
+.m-content{
+  position: absolute;
+    top: 25%;
+    left: 30%;
 }
