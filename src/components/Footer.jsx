@@ -1,6 +1,7 @@
 import React from 'react'
-import {FaSquareXTwitter} from 'react-icons/fa6'
+import {FaSquareXTwitter,FaTelegram} from 'react-icons/fa6'
 import {AiFillFacebook} from 'react-icons/ai'
+import {IoLogoDiscord} from 'react-icons/io5'
 
 function Footer() {
   return (
@@ -12,8 +13,10 @@ function Footer() {
 
 </div>
 <div className='flex items-center gap-2'>
-  <a href="/" className=' text-3xl text-[#f04451]'><FaSquareXTwitter/></a>
-  <a href="/" className=' text-3xl text-[#f04451]'><AiFillFacebook/></a>
+  <a href="/" className=' text-3xl text-[#f04451] hover:text-black'><FaSquareXTwitter/></a>
+  <a href="/" className=' text-3xl text-[#f04451] hover:text-black'><AiFillFacebook/></a>
+  <a href="/" className=' text-2xl text-[#f04451] hover:text-black'><FaTelegram/></a>
+  <a href="/" className=' text-3xl text-[#f04451] hover:text-black'><IoLogoDiscord/></a>
 
 </div>
 <p className=' font-bold'>All Right Reserved | Noodlefi.com</p>
