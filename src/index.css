@@ -85,3 +85,45 @@ background: linear-gradient(0deg, rgba(76,202,255,1) 92%, rgba(255,255,255,1) 10
     top: 25%;
     left: 30%;
 }
+.btn-green{
+  background: rgb(9,196,123);
+background: linear-gradient(0deg, rgba(9,196,123,1) 92%, rgba(255,255,255,1) 100%);
+}
+
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 400px;
+  height: auto;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+
+.swiper-button-prev, .swiper-button-next {
+  
+  top: var(--swiper-navigation-top-offset, 95%);
+}
+.swiper-button-next{
+  right: 44%;
+  color: #fff;
+ font-weight: 800;
+}
+.swiper-button-prev{
+  left: 44%;
+  color: #fff;
+  font-weight: 800;
+}
+.swiper-wrapper{
+  padding-bottom: 25px;
+}
