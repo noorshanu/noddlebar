@@ -90,7 +90,7 @@ function Team() {
       </Swiper>
     </div>
    </section>
-   <img src="images/cloud5.png" alt="" className=" absolute bottom-[-300px] left-[-30px] h-[550px] -z-10 " />
+   <img src="images/cloud5.png" alt="" className=" absolute bottom-[-300px] left-[-30px] h-[550px] -z-10 floating" />
         </div>
   )
 }
