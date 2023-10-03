@@ -10,7 +10,7 @@ function Navbar() {
 
   return (
     <header className="nav-bg py-4">
-      <div className="container-wrapper mx-auto flex justify-between items-center relative">
+      <div className="container-wrapper mx-auto flex justify-between items-center relative z-20">
         {/* Logo */}
         <div className=""> <img src="images/logo.png" alt=""  className='w-auto h-14'/></div>
 
