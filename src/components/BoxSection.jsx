@@ -58,6 +58,8 @@ const BoxSection = () => {
     </div>
     </div>
     </section>
+    <img src="images/flower.png" alt="" className=" absolute bottom-[-100px] left-[0px] h-[250px] z-10 anime2" />
+         <img src="images/cloud2.png" alt="" className=" absolute bottom-[-100px] right-[-30px] h-[250px] z-10 anime1 floating" />
       </div>
   );
 };
