@@ -10,6 +10,9 @@ import { EffectCoverflow, Pagination,Navigation } from 'swiper/modules';
 
 function Team() {
   return (
+    <div className='relative'>
+  <img src="images/cloud4.png" alt="" className=" absolute top-[-100px] left-[-30px] h-[250px] z-10 floating" />
+    <img src="images/cloud3.png" alt="" className=" absolute top-[-200x] right-[-30px] h-[700px] -z-10" />
    <section>
     <div className='container-wrapper'>
     <div className="relative">
@@ -17,7 +20,7 @@ function Team() {
             src="images/head.png"
             alt=""
             className=" h-24 flex justify-center mx-auto  "
-          />
+            />
           <div className=" absolute top-[28%] left-[20%] sm:left-[40.5%] ">
             <h1 className=" text-2xl sm:text-3xl font-car text-white uppercase">Noodlefi lovers</h1>
           </div>
@@ -51,7 +54,7 @@ function Team() {
           disableOnInteraction: false, // Keep autoplay after user interactions (e.g., manual slide change)
         }}
         className="mySwiper pb-24"
-      >
+        >
         <SwiperSlide>
           <img src="images/ELON.png" alt="Slide 1" />
         </SwiperSlide>
@@ -71,6 +74,8 @@ function Team() {
       </Swiper>
     </div>
    </section>
+   <img src="images/cloud5.png" alt="" className=" absolute bottom-[-300px] left-[-30px] h-[550px] -z-10 " />
+        </div>
   )
 }
 

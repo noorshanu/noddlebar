@@ -5,8 +5,8 @@ import Token from './Token';
 const BoxSection = () => {
   return (
       <div className=' relative'>
-         <img src="images/tree2.png" alt="" className=" absolute top-[-200px] left-[-30px] h-[700px] -z-10" />
-         <img src="images/bowl.png" alt="" className=" absolute top-[-200px] right-[-30px] h-[700px] -z-10" />
+         <img src="images/tree2.png" alt="" className=" absolute top-[-200px] left-[-30px] h-[700px] -z-10 floating" />
+         <img src="images/bowl.png" alt="" className=" absolute top-[-200px] right-[-30px] h-[700px] -z-10 " />
 
     <section className='bg-[#ffffff54] rounded-md  backdrop-blur-md py-8'>
     <div className='container-wrapper'>
