@@ -5,7 +5,7 @@ import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-import { EffectCoverflow,Navigation } from 'swiper/modules';
+import { EffectCoverflow,Navigation,Autoplay } from 'swiper/modules';
 
 
 function Team() {
@@ -33,6 +33,10 @@ function Team() {
         centeredSlides={true}
         slidesPerView={'3'}
         initialSlide={2}
+        Autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
         coverflowEffect={{
           rotate: 0,
           stretch: 0,
@@ -41,7 +45,7 @@ function Team() {
           slideShadows: true,
         }}
       
-        modules={[EffectCoverflow, Navigation]}
+        modules={[EffectCoverflow, Navigation,Autoplay]}
         loop={true} // Enable infinite loop
         speed={1000} // Set the transition speed in milliseconds (e.g., 1000ms = 1 second)
         autoplay={{
