@@ -195,3 +195,18 @@ background: linear-gradient(0deg, rgba(9,196,123,1) 92%, rgba(255,255,255,1) 100
      transform: rotate(360deg);
     }
  }
+
+
+ @media (max-width:768px) {
+  .swiper-button-next{
+    right: 30%;
+    color: #fff;
+   font-weight: 800;
+  }
+  .swiper-button-prev{
+    left: 30%;
+    color: #fff;
+    font-weight: 800;
+  }
+  
+ }
