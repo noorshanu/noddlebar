@@ -5,7 +5,7 @@ import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-import { EffectCoverflow, Pagination,Navigation } from 'swiper/modules';
+import { EffectCoverflow,Navigation } from 'swiper/modules';
 
 
 function Team() {
@@ -40,13 +40,8 @@ function Team() {
           modifier: 1,
           slideShadows: true,
         }}
-        pagination={{
-          clickable: true,
-          renderBullet: function (index, className) {
-            return `<span class="${className} bg-white"></span>`;
-          },
-        }}
-        modules={[EffectCoverflow, Pagination,Navigation]}
+      
+        modules={[EffectCoverflow, Navigation]}
         loop={true} // Enable infinite loop
         speed={1000} // Set the transition speed in milliseconds (e.g., 1000ms = 1 second)
         autoplay={{
@@ -56,19 +51,40 @@ function Team() {
         className="mySwiper pb-24"
         >
         <SwiperSlide>
-          <img src="images/ELON.png" alt="Slide 1" />
+          <img src="images/ELON.png" alt="Slide 1" className='h-[420px] w-auto' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="images/ELON.png" alt="Slide 2" />
+          <img src="images/team/img1.JPG" alt="Slide 2" className='h-[420px] w-auto' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="images/ELON.png" alt="Slide 3" />
+          <img  src="images/team/img2.PNG" alt="Slide 3"  className='h-[420px] w-auto'/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="images/ELON.png" alt="Slide 3" />
+          <img  src="images/team/img3.PNG" alt="Slide 3"  className='h-[420px] w-auto'/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="images/ELON.png" alt="Slide 3" />
+          <img  src="images/team/img4.PNG" alt="Slide 3"  className='h-[420px] w-auto'/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img  src="images/team/img5.PNG" alt="Slide 3"  className='h-[420px] w-auto'/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img  src="images/team/img6.PNG" alt="Slide 3"  className='h-[420px] w-auto'/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img  src="images/team/img7.PNG" alt="Slide 3"  className='h-[420px] w-auto'/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img  src="images/team/img8.PNG" alt="Slide 3"  className='h-[420px] w-auto'/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img  src="images/team/img9.PNG" alt="Slide 3"  className='h-[420px] w-auto'/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img  src="images/team/img10.PNG" alt="Slide 3" className='h-[420px] w-auto' />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img  src="images/team/img11.PNG" alt="Slide 3"  className='h-[420px] w-auto'/>
         </SwiperSlide>
         {/* Add more slides as needed */}
       </Swiper>
