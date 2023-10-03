@@ -5,7 +5,7 @@ function About() {
     <section className="bg-[#ffffff54] rounded-md  backdrop-blur-md">
       <div className="container-wrapper pt-8 pb-8">
         <div className=" text-center">
-          <h1 className="font-car text-black text-5xl pb-8 flex gap-4 mx-auto justify-center items-center">what is <img src="images/nood.png" alt="" className=" h-11" /> ?</h1>
+          <h1 className="font-car text-black text-5xl pb-8 flex flex-col sm:flex-row gap-4 mx-auto justify-center items-center">what is <img src="images/nood.png" alt="" className=" h-11" /> ?</h1>
           <p className=" max-w-3xl mx-auto">
             {" "}
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam,

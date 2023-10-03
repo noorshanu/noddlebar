@@ -9,7 +9,7 @@ function Hero() {
       <h1 className=" max-w-4xl tracking-wide text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-center px-4 font-car text-white text-s">
        Worlds First Dertiatives Trading Platform
       </h1>
-      <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-center mb-6 px-4 text-white max-w-4xl">
+      <p className="text-sm sm:text-lg md:text-xl lg:text-2xl text-center mb-6 px-4 text-white max-w-4xl">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur velit veniam consectetur rerum. Minus vitae facere delectus commodi odio! Ipsum similique error aliquid quasi magnam laboriosam, harum omnis nam reprehenderit.
       </p>
       <div className="flex flex-col sm:flex-row items-center gap-7">

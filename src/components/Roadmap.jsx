@@ -10,13 +10,13 @@ function Roadmap() {
             alt=""
             className=" h-24 flex justify-center mx-auto  "
           />
-          <div className=" absolute top-[25%] left-[44%] ">
+          <div className=" absolute top-[25%] left-[24%] sm:left-[44%] ">
             <h1 className=" text-4xl font-car text-white uppercase">Roadmap</h1>
           </div>
         </div>
 
-        <div className="flex justify-center gap-8 my-8">
-          <div className="bg-[#fff8e4] rounded-lg p-[1px] w-[350px]">
+        <div className="flex flex-col sm:flex-row justify-center gap-8 my-8">
+          <div className="bg-[#fff8e4] rounded-lg p-[1px] w-[290px] sm:w-[350px]">
             <div className="bg-[#fc7981] px-12 text-center rounded-lg py-1 uppercase font-bold">
               Phase 1
             </div>
@@ -29,7 +29,7 @@ function Roadmap() {
 
           {/* box2 */}
 
-          <div className="bg-[#fff8e4] rounded-lg p-[1px] w-[350px]">
+          <div className="bg-[#fff8e4] rounded-lg p-[1px]  w-[290px] sm:w-[350px]">
             <div className="bg-[#fc7981] px-12 text-center rounded-lg py-1 uppercase font-bold">
               Phase 1
             </div>
@@ -42,7 +42,7 @@ function Roadmap() {
 
           {/* box3 */}
 
-          <div className="bg-[#fff8e4] rounded-lg p-[1px] w-[350px]">
+          <div className="bg-[#fff8e4] rounded-lg p-[1px]  w-[290px] sm:w-[350px]">
             <div className="bg-[#fc7981] px-12 text-center rounded-lg py-1 uppercase font-bold">
               Phase 1
             </div>

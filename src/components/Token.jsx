@@ -9,7 +9,7 @@ function Token() {
           alt=""
           className=" h-24 flex justify-center mx-auto  "
         />
-        <div className=" absolute top-[25%] left-[41.5%] ">
+        <div className=" absolute top-[25%] left-[14.5%]  sm:left-[41.5%] ">
           <h1 className=" text-4xl font-car text-white uppercase">
             Tokenomics
           </h1>
@@ -17,7 +17,7 @@ function Token() {
       </div>
 
       <div className=" mt-8">
-        <div className="flex items-center justify-center gap-7">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-7">
             <div>
                 <img src="images/okp.png" alt="" className=" h-[260px]" />
             </div>

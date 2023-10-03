@@ -10,9 +10,9 @@ function Navbar() {
 
   return (
     <header className="nav-bg py-4">
-      <div className="container-wrapper mx-auto flex justify-between items-center">
+      <div className="container-wrapper mx-auto flex justify-between items-center relative">
         {/* Logo */}
-        <div className="text-black  uppercase  font-medium text-2xl font-bold"> <img src="images/logo.png" alt=""  className='w-auto h-14'/></div>
+        <div className=""> <img src="images/logo.png" alt=""  className='w-auto h-14'/></div>
 
         {/* Mobile Menu Button */}
         <button
@@ -37,7 +37,7 @@ function Navbar() {
 
         {/* Mobile Menu */}
         <div className={`lg:hidden ${isMobileMenuOpen ? 'block' : 'hidden'}`}>
-          <ul className="bg-blue-500 py-2 px-4 space-y-2">
+          <ul className="nav-bg py-2 px-4 space-y-2 absolute mob-nav">
             <li>
               <a href="#" className="text-black  uppercase  font-medium hover:text-gray-200">
                 Home
@@ -45,19 +45,22 @@ function Navbar() {
             </li>
             <li>
               <a href="#" className="text-black  uppercase  font-medium hover:text-gray-200">
-                About
+              whitepaper
               </a>
             </li>
             <li>
               <a href="#" className="text-black  uppercase  font-medium hover:text-gray-200">
-                Services
+               Roadmap
               </a>
             </li>
             <li>
               <a href="#" className="text-black  uppercase  font-medium hover:text-gray-200">
-                Contact
+              Tokonomics
               </a>
             </li>
+            <li> <a href="#" className="text-white shadow-lg  uppercase font-bold stroke-black  bg-pink px-8 py-3 rounded-full   hover:text-gray-200">
+                Launch App
+              </a></li>
           </ul>
         </div>
 

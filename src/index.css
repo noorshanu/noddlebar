@@ -127,3 +127,11 @@ background: linear-gradient(0deg, rgba(9,196,123,1) 92%, rgba(255,255,255,1) 100
 .swiper-wrapper{
   padding-bottom: 25px;
 }
+
+.mob-nav{
+  right: 1%;
+  width: 100%;
+  top: 106%;
+  height: 228px;
+  border-radius: 0px;
+}
