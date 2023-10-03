@@ -18,8 +18,8 @@ function Team() {
             alt=""
             className=" h-24 flex justify-center mx-auto  "
           />
-          <div className=" absolute top-[28%] left-[20%] sm:left-[44%] ">
-            <h1 className=" text-2xl sm:text-4xl font-car text-white uppercase">Noodlefi lovers</h1>
+          <div className=" absolute top-[28%] left-[20%] sm:left-[40.5%] ">
+            <h1 className=" text-2xl sm:text-3xl font-car text-white uppercase">Noodlefi lovers</h1>
           </div>
         </div>
 
