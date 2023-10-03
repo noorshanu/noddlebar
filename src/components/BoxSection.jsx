@@ -1,5 +1,6 @@
 import React from 'react';
 import Partners from './Partners';
+import Token from './Token';
 
 const BoxSection = () => {
   return (
@@ -47,6 +48,9 @@ const BoxSection = () => {
     <div className=' py-8'>
       <Partners/>
 
+    </div>
+    <div>
+      <Token/>
     </div>
     </div>
     </section>
