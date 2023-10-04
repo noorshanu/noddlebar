@@ -16,7 +16,7 @@ function Roadmap() {
         </div>
 
         <div className="flex flex-col sm:flex-row justify-center gap-8 my-8">
-          <div className="bg-[#fff8e4] rounded-lg p-[1px] w-[290px] sm:w-[350px]">
+          <div className="bg-[#fff8e4] rounded-lg p-[1px] w-[290px] sm:w-[350px] mx-auto sm:mx-0">
             <div className="bg-[#fc7981] px-12 text-center rounded-lg py-1 uppercase font-bold">
               Phase 1
             </div>
@@ -32,7 +32,7 @@ function Roadmap() {
 
           {/* box2 */}
 
-          <div className="bg-[#fff8e4] rounded-lg p-[1px]  w-[290px] sm:w-[350px]">
+          <div className="bg-[#fff8e4] rounded-lg p-[1px]  w-[290px] sm:w-[350px] mx-auto sm:mx-0">
             <div className="bg-[#fc7981] px-12 text-center rounded-lg py-1 uppercase font-bold">
               Phase 2
             </div>
@@ -48,7 +48,7 @@ function Roadmap() {
 
           {/* box3 */}
 
-          <div className="bg-[#fff8e4] rounded-lg p-[1px]  w-[290px] sm:w-[350px]">
+          <div className="bg-[#fff8e4] rounded-lg p-[1px]  w-[290px] sm:w-[350px] mx-auto sm:mx-0">
             <div className="bg-[#fc7981] px-12 text-center rounded-lg py-1 uppercase font-bold">
               Phase 3
             </div>

@@ -230,4 +230,9 @@ body {
     color: #fff;
     font-weight: 800;
   }
+  .m-content {
+    position: absolute;
+    top: 33%;
+    left: 17%;
+  }
 }
