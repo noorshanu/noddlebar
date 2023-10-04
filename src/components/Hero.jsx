@@ -2,7 +2,7 @@ import React from "react";
 
 function Hero() {
   return (
-    <section className="relative h-[70vh] sm:h-[116vh] bg-cover bg-center">
+    <section className="relative h-[70vh] sm:h-[85vh] bg-cover bg-center">
       {/* Video Background */}
       <video
         autoPlay
