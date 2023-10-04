@@ -13,11 +13,11 @@ function Partners() {
             </div>
 
             <div className=' flex flex-col sm:flex-row justify-center gap-5 my-8'>
-                <img src="images/bnb.png" alt="" className=' h-20' />
-                <img src="images/coin.png" alt="" className=' h-20'/>
-                <img src="images/dex.png" alt="" className=' h-20'/>
-                <img src="images/okk.png" alt="" className=' h-20'/>
-                <img src="images/pink.png" alt="" className=' h-20'/>
+                <img src="images/bnb.png" alt="" className=' h-20  sm:w-auto mx-auto sm:mx-0' />
+                <img src="images/coin.png" alt="" className=' h-20 sm:w-auto mx-auto sm:mx-0'/>
+                <img src="images/dex.png" alt="" className=' h-20 sm:w-auto mx-auto sm:mx-0'/>
+                <img src="images/okk.png" alt="" className=' h-20 sm:w-auto mx-auto sm:mx-0'/>
+                <img src="images/pink.png" alt="" className=' h-20 sm:w-auto mx-auto sm:mx-0'/>
                 
 
 

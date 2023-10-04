@@ -9,7 +9,7 @@ function Token() {
           alt=""
           className=" h-24 flex justify-center mx-auto  "
         />
-        <div className=" absolute top-[25%] left-[14.5%]  sm:left-[41.5%] ">
+        <div className=" absolute top-[25%] left-[18.5%]  sm:left-[41.5%] ">
           <h1 className=" text-4xl font-car text-white uppercase">
             Tokenomics
           </h1>
