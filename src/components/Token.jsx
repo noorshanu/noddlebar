@@ -19,7 +19,7 @@ function Token() {
       <div className=" mt-8">
         <div className="flex flex-col sm:flex-row items-center justify-center gap-7">
             <div>
-                <img src="images/okp.png" alt="" className=" h-[260px]" />
+                <img src="images/pie.png" alt="" className=" h-[260px]" />
             </div>
 
             <div>
