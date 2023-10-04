@@ -26,9 +26,9 @@ function Token() {
                 <p>-5% Stake Platform.</p>
                 <p>-5% Advisor .</p>
            
-                <p>-Lorem ipsum dolor sit amet consectetur adipisicing elit.? .</p>
-                <p>-Lorem ipsum dolor sit amet consectetur adipisicing elit.? .</p>
-                <p>-Lorem ipsum dolor sit amet consectetur adipisicing elit.? .</p>
+                <p>-28% Presale .</p>
+                <p>-10% Ecosystem .</p>
+                <p>-10% CEX Listing .</p>
             </div>
 
         </div>
