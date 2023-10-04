@@ -19,12 +19,16 @@ function About() {
             <a href="/" className="bg-btn px-12 py-3 rounded-full  text-white shadow-lg font-bold"> Whitepaper</a>
           </div>
         </div>
-        <div className="bg-white rounded-md p-8 mt-8 text-center h-[300px] z-10 block">
-            <h1> pick deck here</h1>
+        <div className=" rounded-md p-8 mt-8 text-center h-[300px] z-10 block">
+           <div className="flex flex-col sm:flex-row justify-center gap-4">
+            <img src="images/pic1.jpeg" alt="" className=" w-auto h-[200px] sm:h-[300px]" />
+            <img src="images/pic2.jpeg" alt="" className=" w-auto h-[200px] sm:h-[300px]" />
+
+           </div>
 
 
         </div>
-        <div className="flex justify-center mt-5">
+        <div className="flex justify-center mt-44 sm:mt-20">
         <a href="#" className="text-white  uppercase font-bold stroke-black  bg-pink px-12 py-3 rounded-full shadow-lg   hover:text-gray-200">
                 Launch App
               </a>

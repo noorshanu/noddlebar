@@ -2,14 +2,14 @@ import React from "react";
 
 function Hero() {
   return (
-    <section className="relative h-[70vh] sm:h-[85vh] bg-cover bg-center">
+    <section className="relative h-[70vh] sm:h-[88vh] bg-cover bg-center">
       {/* Video Background */}
       <video
         autoPlay
         loop
         muted
         playsInline // Add playsInline for iOS Safari
-        className="absolute top-0 left-0 min-w-full min-h-full object-cover"
+        className="absolute top-0 left-0 min-w-full h-[70vh] sm:h-[88vh] object-cover"
       >
         {/* Provide multiple video formats */}
         <source src="images/main-bg.mp4" type="video/mp4" />
