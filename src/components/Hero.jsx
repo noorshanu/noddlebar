@@ -20,7 +20,7 @@ function Hero() {
       {/* Overlay */}
       <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
       <div className="container-wrapper relative z-10 pt-6">
-        <div className="flex flex-col items-center justify-center h-screen absolute left-[1px] sm:left-[18%] top-[-4rem] sm:top-[9rem] ">
+        <div className="flex flex-col items-center justify-center h-screen absolute left-[1px] sm:left-[17%] top-[-4rem] sm:top-[9rem] ">
           <h1 className=" max-w-4xl tracking-wide main-t text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-center px-4 font-car text-white text-s">
             Worlds Fastest Dertiatives Trading Platform
           </h1>

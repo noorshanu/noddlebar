@@ -18,9 +18,9 @@ const BoxSection = () => {
             <img src="images/box.png" alt="" className='h-[160px]' />
           </div>
           <div className='m-content'>
-          <h1 className="text-3xl font-bold text-white">$2344565</h1>
-          <p className="mt-2 text-sm font-semibold text-white uppercase">TOtal Centerlised <br />
-          Perpetual Volume</p>
+          <h1 className="text-3xl font-bold text-white">$56,809,953,811</h1>
+          <p className="mt-2 text-sm font-semibold text-white uppercase">
+         24h Volume</p>
           </div>
          
         </div>
@@ -31,9 +31,8 @@ const BoxSection = () => {
             <img src="images/box.png" alt="" className='h-[160px]' />
           </div>
           <div className='m-content'>
-          <h1 className="text-3xl font-bold text-white">$2344565</h1>
-          <p className="mt-2 text-sm font-semibold text-white uppercase">on Chain <br />
-          Perpetual volume</p>
+          <h1 className="text-3xl font-bold text-white">$24,344,655,525</h1>
+          <p className="mt-2 text-sm font-semibold text-white uppercase">Open Interest</p>
           </div>
          
         </div>
@@ -43,10 +42,9 @@ const BoxSection = () => {
           <div>
             <img src="images/box.png" alt="" className='h-[160px]' />
           </div>
-          <div className='m-content'>
-          <h1 className="text-3xl font-bold text-white">$2344565</h1>
-          <p className="mt-2 text-sm font-semibold text-white uppercase">Revenue of perpetual <br />
-          Trading volume</p>
+          <div className='m-content ml-4'>
+          <h1 className="text-3xl font-bold text-white">$68,670,477</h1>
+          <p className="mt-2 text-sm font-semibold text-white uppercase">24h Liquidation</p>
           </div>
          
         </div>

@@ -68,7 +68,7 @@ function Navbar() {
         <nav className="hidden lg:block">
           <ul className="flex space-x-12">
             <li>
-              <a href="#" className="text-black  uppercase font-bold hover:text-gray-200">
+              <a href="#" className="text-black  uppercase font-medium hover:text-gray-200">
                 Home
               </a>
             </li>

@@ -13,10 +13,7 @@ function About() {
           <h1 className="font-car text-black text-3xl sm:text-5xl pb-8   gap-4 mx-auto justify-center items-center">what is Noodlefi ?</h1>
           <p className=" max-w-3xl mx-auto">
             {" "}
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam,
-            saepe excepturi corrupti nulla quasi officiis, laboriosam
-            repudiandae accusantium, odit quibusdam eveniet? Ipsa aperiam
-            asperiores excepturi soluta culpa impedit nobis nesciunt!
+            Noodle Fi is a place where you can easily trade different digital assets. We've built it to be user-friendly, so whether you're new to trading or have been doing it for a while, you'll find it straightforward. With Noodle Fi, you can take different trading positions, get rewards by participating, and always have a clear view of your transactions. It's a secure, transparent, and simple way to dive into the world of digital trading.
           </p>
           <div className=" my-6">
             <a href="/" className="bg-btn px-12 py-3 rounded-full text-white shadow-lg font-bold"> Read More</a>
