@@ -39,22 +39,22 @@ function Navbar() {
         <div className={`lg:hidden ${isMobileMenuOpen ? 'block' : 'hidden'}`}>
           <ul className="nav-bg py-2 px-4 space-y-2 absolute mob-nav">
             <li>
-              <a href="#" className="text-black  uppercase  font-medium hover:text-gray-200">
+              <a href="#" className="text-black  uppercase  font-medium hover:text-pink-500">
                 Home
               </a>
             </li>
             <li>
-              <a href="#" className="text-black  uppercase  font-medium hover:text-gray-200">
+              <a href="#" className="text-black  uppercase  font-medium hover:text-pink-500">
               whitepaper
               </a>
             </li>
             <li>
-              <a href="#" className="text-black  uppercase  font-medium hover:text-gray-200">
+              <a href="#" className="text-black  uppercase  font-medium hover:text-pink-500">
                Roadmap
               </a>
             </li>
             <li>
-              <a href="#" className="text-black  uppercase  font-medium hover:text-gray-200">
+              <a href="#" className="text-black  uppercase  font-medium hover:text-pink-500">
               Tokonomics
               </a>
             </li>
@@ -68,27 +68,27 @@ function Navbar() {
         <nav className="hidden lg:block">
           <ul className="flex space-x-12">
             <li>
-              <a href="#" className="text-black  uppercase font-medium hover:text-gray-200">
+              <a href="#" className="text-black  uppercase font-medium hover:text-pink-500">
                 Home
               </a>
             </li>
             <li>
-              <a href="#" className="text-black  uppercase  font-medium hover:text-gray-200">
+              <a href="#" className="text-black  uppercase  font-medium hover:text-pink-500">
                Whitepaper
               </a>
             </li>
             <li>
-              <a href="#" className="text-black  uppercase  font-medium hover:text-gray-200">
+              <a href="#" className="text-black  uppercase  font-medium hover:text-pink-500">
                Roadmap
               </a>
             </li>
             <li>
-              <a href="#" className="text-black  uppercase  font-medium    hover:text-gray-200">
+              <a href="#" className="text-black  uppercase  font-medium    hover:text-pink-500">
                 Tokonomics
               </a>
             </li>
             <li>
-              <a href="#" className="text-white shadow-lg  uppercase font-bold stroke-black  bg-pink px-12 py-3 rounded-full   hover:text-gray-200">
+              <a href="#" className="text-white shadow-lg  uppercase font-bold stroke-black  bg-pink px-12 py-3 rounded-full   hover:text-pink-500">
                 Launch App
               </a>
             </li>
