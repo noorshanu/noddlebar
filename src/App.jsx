@@ -26,7 +26,7 @@ function App() {
       </div>
 
       <div className="flex justify-center py-8">
-      <a href="#" className="text-white shadow-lg  uppercase font-bold stroke-black  bg-btn2 px-12 py-3 rounded-full   hover:text-gray-200">
+      <a href="#" className="text-white shadow-lg  uppercase font-bold stroke-black  bg-pink px-12 py-3 rounded-full   hover:text-gray-200">
                Join Community
               </a>
       </div>

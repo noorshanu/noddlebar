@@ -35,7 +35,7 @@ function Token() {
 
       </div>
       <div className="flex justify-center mt-5">
-        <a href="#" className="text-white  uppercase font-bold stroke-black  btn-green px-12 py-3 rounded-full shadow-lg   hover:text-gray-200">
+        <a href="#" className="text-white  uppercase font-bold stroke-black  bg-pink px-14 py-3 rounded-full shadow-lg   hover:text-gray-200">
                 Buy Now
               </a>
         </div>

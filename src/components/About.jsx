@@ -16,7 +16,7 @@ function About() {
             Noodle Fi is a place where you can easily trade different digital assets. We've built it to be user-friendly, so whether you're new to trading or have been doing it for a while, you'll find it straightforward. With Noodle Fi, you can take different trading positions, get rewards by participating, and always have a clear view of your transactions. It's a secure, transparent, and simple way to dive into the world of digital trading.
           </p>
           <div className=" my-6">
-            <a href="/" className="bg-btn px-12 py-3 rounded-full text-white shadow-lg font-bold"> Read More</a>
+            <a href="/" className="bg-btn px-12 py-3 rounded-full  text-white shadow-lg font-bold"> Whitepaper</a>
           </div>
         </div>
         <div className="bg-white rounded-md p-8 mt-8 text-center h-[300px] z-10 block">
