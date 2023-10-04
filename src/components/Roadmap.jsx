@@ -21,9 +21,19 @@ function Roadmap() {
               Phase 1
             </div>
             <div className=" py-7 px-5">
-              <p>random</p>
-              <p>random</p>
-              <p>random</p>
+           
+
+
+
+
+
+
+              <p> Foundation.</p>
+              <p>Market research.</p>
+              <p>Team assembly.</p>
+              <p>Initial platform development.</p>
+              <p>Website launch.</p>
+              <p>$NOFI token Audit & KYC </p>
             </div>
           </div>
 

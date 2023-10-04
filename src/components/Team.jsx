@@ -11,8 +11,8 @@ import { EffectCoverflow,Navigation,Autoplay } from 'swiper/modules';
 function Team() {
   return (
     <div className='relative'>
-  <img src="images/cloud4.png" alt="" className=" absolute top-[-100px] left-[-30px] h-[100px] sm:h-[250px] z-10 floating" />
-    <img src="images/cloud3.png" alt="" className=" absolute top-[-200x] right-[-30px] h-[250px] sm:h-[700px] -z-10" />
+  <img src="images/cloud4.png" alt="" className=" absolute top-[-100px] left-[-30px] h-[100px] sm:h-[250px] z-10 floating overflow-hidden" />
+    <img src="images/cloud3.png" alt="" className=" absolute top-[-200x] right-[-0px] h-[250px] sm:h-[700px] -z-10 overflow-hidden" />
    <section>
     <div className='container-wrapper'>
     <div className="relative">
@@ -94,7 +94,7 @@ function Team() {
       </Swiper>
     </div>
    </section>
-   <img src="images/cloud5.png" alt="" className=" absolute bottom-[-300px] left-[-30px] h-[200px] sm:h-[550px] -z-10 floating" />
+   <img src="images/cloud5.png" alt="" className=" absolute bottom-[-300px] left-[-30px] h-[200px] sm:h-[550px] -z-10 floating overflow-hidden" />
         </div>
   )
 }

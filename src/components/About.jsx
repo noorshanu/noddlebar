@@ -3,8 +3,8 @@ import React from "react";
 function About() {
   return (
     <div className=" relative">
- <img src="images/cloud1.png" alt="" className=" absolute top-[-50px] sm:top-[-30px] left-[-30px] h-[250px] sm:h-[500px] -z-10 " />
- <img src="images/tree.png" alt="" className=" absolute top-[-30px] right-[-30px] h-[200px]  sm:h-[500px] -z-10 floating" />
+ <img src="images/cloud1.png" alt="" className=" absolute top-[-50px] sm:top-[-30px] left-[-30px] h-[250px] sm:h-[500px] -z-10 overflow-hidden " />
+ <img src="images/tree.png" alt="" className=" absolute top-[-30px] right-[0px] h-[200px]  sm:h-[500px] -z-10 floating overflow-hidden"  />
    
     <section className="bg-[#ffffff54] rounded-md  backdrop-blur-[3px] relative z-10">
      
