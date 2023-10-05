@@ -5,7 +5,7 @@ import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-import { EffectCoverflow,Navigation,Autoplay } from 'swiper/modules';
+import { EffectCoverflow,Autoplay } from 'swiper/modules';
 
 
 function Team() {
@@ -21,15 +21,15 @@ function Team() {
             alt=""
             className=" h-24 flex justify-center mx-auto  "
             />
-          <div className=" absolute top-[28%] left-[20%] sm:left-[40.5%] ">
-            <h1 className=" text-2xl sm:text-3xl font-car text-white uppercase">Noodlefi lovers</h1>
+          <div className=" absolute top-[29%] left-[20%] sm:left-[41.5%] ">
+            <h1 className=" text-2xl sm:text-2xl font-car text-white uppercase">Noodlefi lovers</h1>
           </div>
         </div>
 
     <Swiper
         effect={'coverflow'}
         grabCursor={true}
-        navigation={true}
+        
         centeredSlides={true}
         slidesPerView={'3'}
         initialSlide={2}
@@ -45,7 +45,7 @@ function Team() {
           slideShadows: true,
         }}
       
-        modules={[EffectCoverflow, Navigation,Autoplay]}
+        modules={[EffectCoverflow, Autoplay]}
         loop={true} // Enable infinite loop
         speed={1000} // Set the transition speed in milliseconds (e.g., 1000ms = 1 second)
         autoplay={{
