@@ -26,13 +26,13 @@ function App() {
       </div>
 
       <div className="flex flex-col sm:flex-row justify-around py-2 container-wrapper">
-      <a href="#" className="text-white shadow-lg  uppercase font-bold stroke-black  bg-pink px-10 text-center my-6 sm:px-20 py-3 rounded-full   hover:text-gray-200">
+      <a href="#" className="text-white shadow-lg  uppercase font-bold stroke-black  bg-pink px-10 text-center my-2 sm:px-20 py-3 rounded-full   hover:text-gray-200">
                Presale
               </a>
-              <a href="#" className="text-white shadow-lg  uppercase font-bold stroke-black  bg-pink px-10 text-center my-6 sm:px-20 py-3 rounded-full   hover:text-gray-200">
+              <a href="#" className="text-white shadow-lg  uppercase font-bold stroke-black  bg-pink px-10 text-center my-2 sm:px-20 py-3 rounded-full   hover:text-gray-200">
                Join Community
               </a>
-              <a href="#" className="text-white shadow-lg  uppercase font-bold stroke-black  bg-pink px-10 text-center my-6 sm:px-20 py-3 rounded-full   hover:text-gray-200">
+              <a href="#" className="text-white shadow-lg  uppercase font-bold stroke-black  bg-pink px-10 text-center my-2 sm:px-20 py-3 rounded-full   hover:text-gray-200">
               Whitepaper
               </a>
       </div>

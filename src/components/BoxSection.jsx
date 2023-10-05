@@ -42,7 +42,7 @@ const BoxSection = () => {
           <div>
             <img src="images/box.png" alt="" className='h-[160px]' />
           </div>
-          <div className='m-content ml-4'>
+          <div className='m-content ml-[1.3rem]'>
           <h1 className="text-3xl font-bold text-white">$68,670,477</h1>
           <p className="mt-2 text-sm font-semibold text-white uppercase">24h Liquidation</p>
           </div>
