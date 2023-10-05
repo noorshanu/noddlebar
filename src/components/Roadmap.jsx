@@ -2,7 +2,7 @@ import React from "react";
 
 function Roadmap() {
   return (
-    <section>
+    <section id="road">
       <div className="container-wrapper">
         <div className="relative">
           <img

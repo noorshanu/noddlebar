@@ -29,10 +29,10 @@ function App() {
       <a href="#" className="text-white shadow-lg  uppercase font-bold stroke-black  bg-pink px-10 text-center my-2 sm:px-20 py-3 rounded-full   hover:text-gray-200">
                Presale
               </a>
-              <a href="#" className="text-white shadow-lg  uppercase font-bold stroke-black  bg-pink px-10 text-center my-2 sm:px-20 py-3 rounded-full   hover:text-gray-200">
+              <a href="https://t.me/noodlefi" target="_blank" className="text-white shadow-lg  uppercase font-bold stroke-black  bg-pink px-10 text-center my-2 sm:px-20 py-3 rounded-full   hover:text-gray-200">
                Join Community
               </a>
-              <a href="#" className="text-white shadow-lg  uppercase font-bold stroke-black  bg-pink px-10 text-center my-2 sm:px-20 py-3 rounded-full   hover:text-gray-200">
+              <a href="https://noodlefi.gitbook.io/docs/" target="_blank" className="text-white shadow-lg  uppercase font-bold stroke-black  bg-pink px-10 text-center my-2 sm:px-20 py-3 rounded-full   hover:text-gray-200">
               Whitepaper
               </a>
       </div>
