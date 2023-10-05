@@ -10,7 +10,7 @@ function Roadmap() {
             alt=""
             className=" h-24 flex justify-center mx-auto  "
           />
-          <div className=" absolute top-[25%] left-[24%] sm:left-[44%] ">
+          <div className=" absolute top-[25%] left-[25%] sm:left-[44%] ">
             <h1 className=" text-4xl font-car text-white uppercase">Roadmap</h1>
           </div>
         </div>
