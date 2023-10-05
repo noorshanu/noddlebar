@@ -21,8 +21,12 @@ function About() {
         </div>
         <div className=" rounded-md p-8 mt-8 text-center h-[300px] z-10 block">
            <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <img src="images/pic1.jpeg" alt="" className=" w-auto h-[200px] sm:h-[300px] rounded-md" />
-            <img src="images/pic2.jpeg" alt="" className=" w-auto h-[200px] sm:h-[300px] rounded-md" />
+            <img src="images/pic1.jpeg" alt="" className=" w-auto h-[200px] sm:h-[300px] rounded-md" data-aos="fade-right"
+     data-aos-offset="300" data-aos-duration="2000" 
+     data-aos-easing="ease-in-sine"/>
+            <img src="images/pic2.jpeg" alt="" className=" w-auto h-[200px] sm:h-[300px] rounded-md" data-aos="fade-left"
+     data-aos-offset="300" data-aos-duration="2000" 
+     data-aos-easing="ease-in-sine" />
 
            </div>
 

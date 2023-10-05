@@ -11,7 +11,9 @@ const BoxSection = () => {
     <section className='bg-[#ffffff54] rounded-md  backdrop-blur-md py-8'>
     <div className='container-wrapper'>
     <div className=" py-2">
-      <div className="container mx-auto flex flex-col sm:flex-row justify-around items-baseline  space-y-4 sm:space-x-4">
+      <div className="container mx-auto flex flex-col sm:flex-row justify-around items-baseline  space-y-4 sm:space-x-4" data-aos="fade-up"
+     data-aos-offset="300" data-aos-duration="2000" 
+     data-aos-easing="ease-in-sine">
         {/* Box 1 */}
         <div className=" relative p-6 rounded-lg text-center ">
           <div>
