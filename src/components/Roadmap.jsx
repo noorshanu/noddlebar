@@ -15,7 +15,9 @@ function Roadmap() {
           </div>
         </div>
 
-        <div className="flex flex-col sm:flex-row justify-center gap-8 my-8">
+        <div className="flex flex-col sm:flex-row justify-center gap-8 my-8" data-aos="fade-up"
+     data-aos-offset="300" data-aos-duration="1500" 
+     data-aos-easing="ease-in-sine">
           <div className="bg-[#fff8e4] rounded-lg p-[1px] w-[290px] sm:w-[350px] mx-auto sm:mx-0">
             <div className="bg-[#fc7981] px-12 text-center rounded-lg py-1 uppercase font-bold">
               Phase 1
