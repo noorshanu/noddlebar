@@ -20,14 +20,20 @@ function App() {
       <div className=" py-8">
         <Roadmap />
       </div>
-      <div className="py-8">
+      <div className="py-2">
         <Team/>
 
       </div>
 
-      <div className="flex justify-center py-8">
-      <a href="#" className="text-white shadow-lg  uppercase font-bold stroke-black  bg-pink px-12 py-3 rounded-full   hover:text-gray-200">
+      <div className="flex flex-col sm:flex-row justify-around py-2 container-wrapper">
+      <a href="#" className="text-white shadow-lg  uppercase font-bold stroke-black  bg-pink px-10 text-center my-6 sm:px-20 py-3 rounded-full   hover:text-gray-200">
+               Presale
+              </a>
+              <a href="#" className="text-white shadow-lg  uppercase font-bold stroke-black  bg-pink px-10 text-center my-6 sm:px-20 py-3 rounded-full   hover:text-gray-200">
                Join Community
+              </a>
+              <a href="#" className="text-white shadow-lg  uppercase font-bold stroke-black  bg-pink px-10 text-center my-6 sm:px-20 py-3 rounded-full   hover:text-gray-200">
+              Whitepaper
               </a>
       </div>
 

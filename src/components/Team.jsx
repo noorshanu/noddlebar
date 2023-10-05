@@ -52,7 +52,7 @@ function Team() {
           delay: 5000, // Delay between slides in milliseconds (e.g., 5000ms = 5 seconds)
           disableOnInteraction: false, // Keep autoplay after user interactions (e.g., manual slide change)
         }}
-        className="mySwiper pb-24"
+        className="mySwiper pb-2"
         >
         <SwiperSlide>
           <img src="images/ELON.png" alt="Slide 1" className='h-[210px]  sm:h-[420px] w-auto' />
