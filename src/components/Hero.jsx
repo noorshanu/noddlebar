@@ -34,7 +34,7 @@ function Hero() {
               Presale
             </a>
             <a
-              href="#"
+             href="https://t.me/noodlefi" target="_blank"
               className="text-white shadow-lg  uppercase font-bold stroke-black  bg-pink px-12 py-3 rounded-full   hover:text-gray-200"
             >
               Join Community
