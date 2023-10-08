@@ -33,7 +33,7 @@ function About() {
 
         </div>
         <div className="flex justify-center mt-44 sm:mt-20">
-        <a href="#" className="text-white  uppercase font-bold stroke-black  bg-pink px-12 py-3 rounded-full shadow-lg   hover:text-gray-200">
+        <a href="https://nofi-dev.vercel.app/" target="_blank" className="text-white  uppercase font-bold stroke-black  bg-pink px-12 py-3 rounded-full shadow-lg   hover:text-gray-200">
                 Launch App
               </a>
         </div>

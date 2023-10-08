@@ -72,7 +72,7 @@ function Roadmap() {
             Buy Now
           </a>
           <a
-            href="#"
+            href="https://nofi-dev.vercel.app/" target="_blank"
             className="text-white shadow-lg  uppercase font-bold stroke-black  bg-pink px-12 py-3 rounded-full   hover:text-gray-200"
           >
             Launch App
