@@ -28,7 +28,7 @@ function Hero() {
 
           <div className="flex flex-col sm:flex-row items-center gap-7">
             <a
-              href="#"
+             href="https://www.pinksale.finance/launchpad/0xd7e26a26ae233ef273fcfa67a78373fd0c718d2e?chain=BSC" target="_blank"
               className="text-white shadow-lg  uppercase font-bold stroke-black  bg-pink px-20 py-3 rounded-full   hover:text-gray-200"
             >
               Presale
