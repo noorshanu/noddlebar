@@ -23,12 +23,12 @@ function Token() {
             </div>
 
             <div>
-                <p>-5% Stake Platform.</p>
-                <p>-5% Advisor .</p>
+                <p>-40% Presale.</p>
+                <p>-25% Pancake swap Lp.</p>
            
-                <p>-28% Presale .</p>
-                <p>-10% Ecosystem .</p>
-                <p>-10% CEX Listing .</p>
+                <p>-15% Ecosystem.</p>
+                <p>-10% Cex.</p>
+                <p>-10% for Treasury.</p>
             </div>
 
         </div>
